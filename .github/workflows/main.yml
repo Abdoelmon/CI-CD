@@ -9,6 +9,6 @@ jobs:
     example-job:
       runs-on: ubuntu-latest
 
-    steps:
-     - name: print a welcome message
-       run: echo "welcome to our frist github actions "
+      steps:
+       - name: print a welcome message
+         run: echo "welcome to our frist github actions "
