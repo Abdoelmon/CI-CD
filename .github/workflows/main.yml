@@ -12,3 +12,10 @@ jobs:
       steps:
        - name: print a welcome message
          run: echo "welcome to our frist github actions "
+       - name: Checkout repository
+         uses: actions/checkout@v6.0.2
+       - name: List repository files
+         run: ls -la
+
+
+        
