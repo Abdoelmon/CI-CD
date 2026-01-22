@@ -1,12 +1,12 @@
-on:
-  schedule:
-    - cron: "0 * * * *"
+#on:
+#  schedule:
+#    - cron: "0 * * * *"
 
-jobs:
-  daily-task:
-   runs-on: ubuntu-latest
-   steps:
-     - name: print message
-       run: echo "Running The scheduled task"
+#jobs:
+ # daily-task:
+ #  runs-on: ubuntu-latest
+  # steps:
+   #  - name: print message
+    #   run: echo "Running The scheduled task"
 
 
